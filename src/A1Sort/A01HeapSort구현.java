@@ -33,6 +33,7 @@ public class A01HeapSort구현 {
 //        System.out.println(Arrays.toString(arr));
 
 //        pq를 통한 정렬방법
+//        pq를 가지고 직접 정렬을 수행하기보다는 지속적으로 값을 add하고 poll해 나가는 상황에서 사용
         Queue<Integer> pq=new PriorityQueue<>(Arrays.asList(7, 6, 5, 8, 3, 5, 9, 1, 6));
         System.out.println(pq);
         System.out.println(pq.poll()); // poll의 복잡도 log(n)
