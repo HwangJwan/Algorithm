@@ -13,7 +13,7 @@ public class A05배낭문제 {
 //    평범한 배낭 - 백준
 //    벼락치기 - 백준(14728)
 
-    //    주어진 데이터를 여러번 사용가능
+//    주어진 데이터를 여러번 사용가능
 //    호텔 - 백준
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
